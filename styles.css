@@ -1,0 +1,22 @@
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6AF7E0;
+    color: white;
+}
+
+.abs-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 15vh;
+}
+
+.image{
+    width: 18rem;
+    padding: 5px;
+    margin: 5px;
+    height: 350px;
+}
