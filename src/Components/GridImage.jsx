@@ -21,10 +21,10 @@ export const GridImage = ({topic}) => {
     <div className='container text-center'>
         <h3>{topic}</h3>
           
-        <div className='row justify-content-evenly cols-4'>
+        <div className='row justify-content-evenly text-center p-0 m-0'>
 
           {images.map((img) => {
-              return (<div className='col-3'>
+              return (<div className='col-md m-0'>
                   <ImageItem key={img.id} img={img}/>
               </div>
               )
