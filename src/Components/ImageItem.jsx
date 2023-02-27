@@ -1,7 +1,7 @@
 
 
 export const ImageItem = ({img}) => {
-  console.log(img)
+  
   return (
     <>
       <img src={img.url} alt={img.title}
